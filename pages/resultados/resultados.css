@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
-    --webkit-font-smoothing: antialiased;
+    -webkit-font-snoothing: antialiased;
 }
 
 :root {
@@ -12,17 +12,15 @@
     --color-span: #626c7f;
     --purple: #a729f5;
     --purple-hover: rgba(167, 41, 245, 0.7);
-    --primary-text-color: #313e51;
-    --secondary-text-color: #626c7f;
+    --white: #fff;
     --pontuacao-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
-    --bg-javascript: #ebf0ff;
+    --bg-javacript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
-    --white: #fff;
-   
-   
+    --primary-text-color: #313e51;
+    --secondary-text-color: #626c7f;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -40,12 +38,12 @@ body.escuro {
 
 body {
     height: 100svh;
-    background: var(--bg-mobile)  var(--bg-color);
+    background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     padding: 16px 24px;
@@ -57,9 +55,7 @@ header{
     gap: 16px;
 }
 
-
-.assunto_icone{
-    background: var(--bg-acessibilidade);
+.assunto_icone {
     width: 40px;
     height: 40px;
     padding: 5px;
@@ -75,13 +71,12 @@ header{
 }
 
 .assunto_icone.javascript {
-    background: var(--bg-javascript);
+    background: var(--bg-javacript);
 }
 
 .assunto_icone.acessibilidade {
     background: var(--bg-acessibilidade);
 }
-
 
 .assunto_icone img {
     width: 100%;
@@ -127,7 +122,7 @@ main {
     padding: 32px 24px;
 }
 
-main h2 {
+main h2{
     font-size: 40px;
     font-weight: 300;
     color: var(--primary-text-color);
@@ -149,7 +144,7 @@ main h2 strong {
     margin-bottom: 12px;
     box-shadow: var(--shadow);
 }
-    
+
 .pontuacao strong {
     font-size: 88px;
     color: var(--primary-text-color);
@@ -180,7 +175,6 @@ main button:hover {
     cursor: pointer;
 }
 
-
 @media(min-width: 1100px) {
     body {
         background: var(--bg-desktop) var(--bg-color);
@@ -205,8 +199,6 @@ main button:hover {
         font-size: 28px;
     }
 
-
-
     .tema {
         gap: 16px;
     }
@@ -225,7 +217,7 @@ main button:hover {
         height: 20px;
     }
 
-    main{
+    main {
         display: flex;
         gap: 140px;
         max-width: 1160px;
