@@ -99,7 +99,6 @@ header {
     width: 16px;
 }
 
-
 .tema button {
     height: 20px;
     width: 32px;
@@ -251,5 +250,4 @@ main button:hover {
         padding: 24px;
         border-radius: 24px;
     }
-
 }
